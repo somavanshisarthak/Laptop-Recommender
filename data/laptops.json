@@ -1,0 +1,146 @@
+[
+  {
+    "name": "HP Victus 15",
+    "cpu": "Intel i5-12450H",
+    "gpu": "NVIDIA RTX 3050",
+    "ram": 16,
+    "storage": 512,
+    "price": 75000,
+    "use_case": "Gaming"
+  },
+  {
+    "name": "Dell Inspiron 15 3000",
+    "cpu": "Intel i5-1135G7",
+    "gpu": "Intel Iris Xe",
+    "ram": 8,
+    "storage": 512,
+    "price": 60000,
+    "use_case": "Office"
+  },
+  {
+    "name": "ASUS ROG Strix G15",
+    "cpu": "AMD Ryzen 7 5800H",
+    "gpu": "NVIDIA RTX 3060",
+    "ram": 16,
+    "storage": 1024,
+    "price": 95000,
+    "use_case": "Gaming"
+  },
+  {
+    "name": "MacBook Air M2",
+    "cpu": "Apple M2",
+    "gpu": "Apple M2 GPU",
+    "ram": 8,
+    "storage": 256,
+    "price": 99900,
+    "use_case": "Artistic"
+  },
+  {
+    "name": "Lenovo ThinkPad E15",
+    "cpu": "Intel i5-1235U",
+    "gpu": "Intel Iris Xe",
+    "ram": 16,
+    "storage": 512,
+    "price": 65000,
+    "use_case": "Office"
+  },
+  {
+    "name": "MSI Gaming GF63",
+    "cpu": "Intel i5-11400H",
+    "gpu": "NVIDIA GTX 1650",
+    "ram": 8,
+    "storage": 512,
+    "price": 68000,
+    "use_case": "Gaming"
+  },
+  {
+    "name": "HP Pavilion 15",
+    "cpu": "AMD Ryzen 5 5500U",
+    "gpu": "AMD Radeon Graphics",
+    "ram": 8,
+    "storage": 256,
+    "price": 45000,
+    "use_case": "Student"
+  },
+  {
+    "name": "Dell XPS 13",
+    "cpu": "Intel i7-1165G7",
+    "gpu": "Intel Iris Xe",
+    "ram": 16,
+    "storage": 512,
+    "price": 120000,
+    "use_case": "Artistic"
+  },
+  {
+    "name": "ASUS VivoBook S15",
+    "cpu": "Intel i5-1135G7",
+    "gpu": "Intel Iris Xe",
+    "ram": 8,
+    "storage": 512,
+    "price": 55000,
+    "use_case": "Student"
+  },
+  {
+    "name": "Acer Nitro 5",
+    "cpu": "AMD Ryzen 5 5600H",
+    "gpu": "NVIDIA GTX 1650",
+    "ram": 8,
+    "storage": 512,
+    "price": 62000,
+    "use_case": "Gaming"
+  },
+  {
+    "name": "Lenovo IdeaPad 3",
+    "cpu": "AMD Ryzen 5 5500U",
+    "gpu": "AMD Radeon Graphics",
+    "ram": 8,
+    "storage": 256,
+    "price": 40000,
+    "use_case": "Student"
+  },
+  {
+    "name": "MacBook Pro 14",
+    "cpu": "Apple M2 Pro",
+    "gpu": "Apple M2 Pro GPU",
+    "ram": 16,
+    "storage": 512,
+    "price": 199900,
+    "use_case": "Artistic"
+  },
+  {
+    "name": "HP EliteBook 840",
+    "cpu": "Intel i7-1165G7",
+    "gpu": "Intel Iris Xe",
+    "ram": 16,
+    "storage": 512,
+    "price": 85000,
+    "use_case": "Office"
+  },
+  {
+    "name": "ASUS TUF Gaming A15",
+    "cpu": "AMD Ryzen 7 4800H",
+    "gpu": "NVIDIA RTX 3050",
+    "ram": 16,
+    "storage": 512,
+    "price": 78000,
+    "use_case": "Gaming"
+  },
+  {
+    "name": "Dell Inspiron 14",
+    "cpu": "Intel i3-1115G4",
+    "gpu": "Intel UHD Graphics",
+    "ram": 8,
+    "storage": 256,
+    "price": 35000,
+    "use_case": "Student"
+  },
+  {
+    "name": "Surface Laptop 4",
+    "cpu": "Intel i5-1135G7",
+    "gpu": "Intel Iris Xe",
+    "ram": 8,
+    "storage": 256,
+    "price": 85000,
+    "use_case": "Artistic"
+  }
+]
