@@ -35,7 +35,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/recommend?budget=${budget}&type=${encodeURIComponent(useCase)}`
+        `http://localhost:5001/recommend?budget=${budget}&type=${encodeURIComponent(useCase)}`
       );
       
       if (!response.ok) {

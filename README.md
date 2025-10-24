@@ -66,7 +66,7 @@ Laptop-Recommender/
    # Run Flask server
    python app.py
    ```
-   The Flask API will be available at `http://localhost:5000`
+   The Flask API will be available at `http://localhost:5001`
 
 3. **Setup Frontend (React)**
    ```bash
@@ -108,7 +108,7 @@ Laptop-Recommender/
 
   Example:
   ```bash
-  curl "http://localhost:5000/recommend?budget=75000&type=Gaming"
+  curl "http://localhost:5001/recommend?budget=75000&type=Gaming"
   ```
 
 ## 📊 Sample Data
@@ -155,9 +155,9 @@ To add new laptops, edit the `data/laptops.json` file:
 ### Common Issues
 
 1. **CORS Errors**: Make sure Flask-CORS is installed and enabled
-2. **Port Conflicts**: Ensure ports 3000 and 5000 are available
+2. **Port Conflicts**: Ensure ports 3000 and 5001 are available
 3. **Module Not Found**: Run `npm install` and `pip install -r requirements.txt`
-4. **API Connection**: Verify Flask server is running on port 5000
+4. **API Connection**: Verify Flask server is running on port 5001
 
 ### Debug Mode
 

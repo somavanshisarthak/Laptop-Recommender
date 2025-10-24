@@ -9,7 +9,11 @@ CORS(app)  # Enable CORS for all routes
 def load_laptops():
     """Load laptop data from JSON file"""
     try:
-        with open('data/laptops.json', 'r') as f:
+        # Look for data file in parent directory
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        parent_dir = os.path.dirname(current_dir)
+        data_path = os.path.join(parent_dir, 'data', 'laptops.json')
+        with open(data_path, 'r') as f:
             return json.load(f)
     except FileNotFoundError:
         return []
@@ -76,4 +80,4 @@ def recommend():
 if __name__ == '__main__':
     # Ensure data directory exists
     os.makedirs('data', exist_ok=True)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)
